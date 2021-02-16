@@ -190,4 +190,6 @@
 #define CONFIG_BOOTP_MASK		CONFIG_BOOTP_DEFAULT
 #endif
 
+#undef CFG_CMD_MEMORY
+
 #endif	/* _CMD_CONFIG_H */

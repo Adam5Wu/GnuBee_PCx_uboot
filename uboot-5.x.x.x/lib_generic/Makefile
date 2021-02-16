@@ -36,7 +36,7 @@ OBJS   += bzlib.o bzlib_crctable.o bzlib_randtable.o bzlib_decompress.o bzlib_hu
 endif
 
 ifeq ($(CONFIG_LZMA),ON)
-OBJS   += LzmaDecode.o
+OBJS   += LzmaTools.o LzmaDec.o
 endif
 
 ifeq ($(CONFIG_XZ),ON)
